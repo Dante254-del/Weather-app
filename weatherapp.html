@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Smart Weather App</title>
+   <link rel="stylesheet" href="weatherapp.css">
+</head>
+<body>
+
+<div class="weather-app">
+    <h2>🌍 Smart Weather</h2>
+    
+    <div class="search-box">
+        <select id="citySelect">
+            <option value="">Select a city</option>
+            <option value="Nairobi">Nairobi</option>
+            <option value="Mombasa">Mombasa</option>
+            <option value="Kisumu">Kisumu</option>
+            <option value="Nakuru">Nakuru</option>
+            <option value="Eldoret">Eldoret</option>
+            <option value="New York">New York</option>
+            <option value="London">London</option>
+            <option value="Paris">Paris</option>
+            <option value="Berlin">Berlin</option>
+            <option value="Dubai">Dubai</option>
+            <option value="Tokyo">Tokyo</option>
+            <option value="Beijing">Beijing</option>
+            <option value="Moscow">Moscow</option>
+            <option value="Cape Town">Cape Town</option>
+            <option value="Lagos">Lagos</option>
+            <option value="Accra">Accra</option>
+            <option value="Cairo">Cairo</option>
+            <option value="Rome">Rome</option>
+            <option value="Madrid">Madrid</option>
+            <option value="Toronto">Toronto</option>
+        </select>
+        <button id="checkBtn">Check</button>
+    </div>
+
+    <div class="weather-card" id="weatherCard">
+        <h3 id="city"></h3>
+        <p id="temp"></p>
+        <p id="description"></p>
+        <p id="humidity"></p>
+        <p id="wind"></p>
+    </div>
+</div>
+<script src="weatherapp.js"></script>
+
+</body>
+</html>
